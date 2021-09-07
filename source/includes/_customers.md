@@ -128,7 +128,7 @@ Returns a specific customer.
 
 > Response
 
-```
+```json
 
 ```
 
@@ -153,7 +153,7 @@ Deletes a specific customer.
 
 > Response
 
-```
+```json
 
 ```
 

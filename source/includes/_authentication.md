@@ -171,7 +171,7 @@ Close your FMY session.
 
 > Request will use the cookie stored on the browser, no need for a payload.
 
-```
+```json
 
 ```
 
@@ -195,7 +195,7 @@ Refresh auth token.
 
 > Request will use the cookie stored on the browser, no need for a payload.
 
-```
+```json
 
 ```
 

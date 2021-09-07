@@ -1,4 +1,4 @@
-# Delete Salesforce
+# Request Salesforce Deletion
 
 The purpose of this set of API calls is managing the creation of deletion requests. It does not in any way change data at the source, but rather generates a document and zip file with CSVs that empower the actual data holder to perform this deletion.
 
@@ -146,7 +146,7 @@ If no objects are present, the status will applied to the entire collection. If 
 
 > Response
 
-```
+```json
 
 ```
 
@@ -238,7 +238,7 @@ When this method is called, three things happen:
 
 > Response
 
-```
+```json
 
 ```
 
@@ -298,7 +298,7 @@ Retrieves a file by its UUID.
 
 > Response - Returns the requested file.
 
-```
+```json
 
 ```
 

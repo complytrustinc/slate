@@ -134,7 +134,7 @@ Updates a customer query.
 
 > Response
 
-```
+```json
 
 ```
 
@@ -143,6 +143,7 @@ Updates a customer query.
 ### HTTP Request
 
 `PUT /v1/customers/{customerid}/users/{userid}/queries/{queryid}`
+
 `PATCH /v1/customers/{customerid}/users/{userid}/queries/{queryid}`
 
 ### Request Parameters
@@ -169,7 +170,7 @@ Deletes a specific customer query.
 
 > Response
 
-```
+```json
 
 ```
 

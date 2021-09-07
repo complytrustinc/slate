@@ -166,7 +166,7 @@ Update a specific request.
 
 > Response
 
-```
+```json
 
 ```
 
@@ -175,6 +175,7 @@ Update a specific request.
 ### HTTP Request
 
 `PUT /v1/customers/{customerid}/users/{userid}/requests/{requestid}`
+
 `PATCH /v1/customers/{customerid}/users/{userid}/requests/{requestid}`
 
 ### Request Parameters
@@ -201,7 +202,7 @@ Deletes a specific request.
 
 > Response
 
-```
+```json
 
 ```
 

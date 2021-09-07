@@ -1,4 +1,4 @@
-# Requests Salesforce
+# Salesforce Requests
 
 ## Get All Salesforce Requests
 
@@ -136,7 +136,7 @@ Alter a Salesforce request.
 
 > Response
 
-```
+```json
 
 ```
 
@@ -145,6 +145,7 @@ Alter a Salesforce request.
 ### HTTP Request
 
 `PUT /v1/customers/{customerid}/users/{userid}/requests/{requestid}/salesforce/{salesforcerequestid}`
+
 `PATCH /v1/customers/{customerid}/users/{userid}/requests/{requestid}/salesforce/{salesforcerequestid}`
 
 ### Request Parameters
@@ -171,7 +172,7 @@ Deletes a specific customer.
 
 > Response
 
-```
+```json
 
 ```
 

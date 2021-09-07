@@ -4,8 +4,6 @@ Manage Salesforce connectors.
 
 ## Get Salesforce Source by ID
 
-TODO Review if the Access token & refresh token should be made publicly available.
-
 > Response
 
 ```json
@@ -85,8 +83,6 @@ Change connector properties. At the moment only allows updating the label.
 
 > Request body must contain the customer as described below:
 
-TODO review if the source ID should be available before registering?
-
 ```json
 {
   "domain_name": "string"
@@ -95,7 +91,7 @@ TODO review if the source ID should be available before registering?
 
 > Response
 
-```
+```json
 
 ```
 
@@ -104,6 +100,7 @@ TODO review if the source ID should be available before registering?
 ### HTTP Request
 
 `PUT /v1/customers/{customerid}/users/{userid}/sources/{sourceid}/salesforce`
+
 `PATCH /v1/customers/{customerid}/users/{userid}/sources/{sourceid}/salesforce`
 
 ### Request Parameters
@@ -120,7 +117,7 @@ The URL contains the following parameters :
 
 > Response
 
-```
+```json
 
 ```
 
@@ -154,7 +151,7 @@ The URL contains the following parameters :
 
 > Response
 
-```
+```json
 
 ```
 
@@ -207,7 +204,7 @@ The URL contains the following parameters :
 
 > Response
 
-```
+```json
 
 ```
 

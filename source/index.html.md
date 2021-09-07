@@ -5,6 +5,9 @@ toc_footers:
   - <a href='#'>Request a Demo</a>
   - <a href='https://complytrust.com/?page_id=1471'>click here</a>
 
+language_tabs:
+  - json: Payloads
+
 includes:
   - forgetmeyes_customers_subscriptions
   - payments
@@ -18,9 +21,9 @@ includes:
   - requests
   - forgetmeyes_requests_salesforce
   - forgetmeyes_requests_salesforce_queries
-  - forgetmeyes_requests_requeries
   - forgetmeyes_requests_process
   - forgetmeyes_requests_salesforce_delete
+  - forgetmeyes_requests_requeries
   - errors
 
 search: true

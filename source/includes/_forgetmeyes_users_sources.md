@@ -1,5 +1,14 @@
 # User Sources
 
+Manage user sources. Currently valid source types include
+
+Salesforce, UUID:
+918da792-a8c2-4534-9427-39b29460789d
+
+Shopify, UUID:
+
+<aside class="notice">coming soon</aside>
+
 ## Get All Sources for User
 
 Retrieves all of a user's sources.
@@ -36,9 +45,14 @@ The URL contains the following parameters :
 
 ## Register a New Source
 
-Register a new source for the given user, all new sources must be created with status c1584f01-e2ba-4230-b313-1be7541c1c46. Returns the created source.
+Register a new source for the given user; returns the created source.
 
-TODO Verify this, if this is so, how can the user be expected to know this? Do they need to know this static value or is there an alias or some other way of retrieving it?
+<aside class="notice">
+all new sources must be created with status created's UUID:
+
+c1584f01-e2ba-4230-b313-1be7541c1c46
+
+</aside>
 
 > Request body must contain the customer as described below:
 
@@ -133,7 +147,7 @@ Update the values of a given source.
 
 > Response
 
-```
+```json
 
 ```
 
@@ -142,6 +156,7 @@ Update the values of a given source.
 ### HTTP Request
 
 `PUT /v1/customers/{customerid}/users/{userid}/sources/{sourceid}`
+
 `PATCH /v1/customers/{customerid}/users/{userid}/sources/{sourceid}`
 
 ### Request Parameters
@@ -160,7 +175,7 @@ Delete a user's source.
 
 > Response
 
-```
+```json
 
 ```
 

@@ -297,7 +297,7 @@ Update a payment method.
 
 > Response
 
-```
+```json
 
 ```
 
@@ -306,6 +306,7 @@ Update a payment method.
 ### HTTP Request
 
 `PUT /v1/customers/{customerid}/payment-methods/{paymentmethodid}`
+
 `PATCH /v1/customers/{customerid}/payment-methods/{paymentmethodid}`
 
 ### Request Parameters
@@ -323,7 +324,7 @@ Delete a payment method.
 
 > Response
 
-```
+```json
 
 ```
 

@@ -173,7 +173,7 @@ Returns a specific customer.
 
 > Response
 
-```
+```json
 
 ```
 
@@ -182,6 +182,7 @@ Returns a specific customer.
 ### HTTP Request
 
 `PUT /v1/customers/{customerid}/users/{userid}`
+
 `PATCH /v1/customers/{customerid}/users/{userid}`
 
 ### Request Parameters
@@ -207,7 +208,7 @@ Deletes a specific customer.
 
 > Response
 
-```
+```json
 
 ```
 

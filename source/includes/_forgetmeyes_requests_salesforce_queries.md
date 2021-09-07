@@ -1,41 +1,8 @@
 # Query Salesforce
 
-Retrieve or submit a query for a Salesforce connector. All query parameters are optional strings but, it MUST include one of First Name & Lastname, or email, or phone number.
-
-## Get Query results
-
-Retrieve query results.???
-
-TODO Confirm this, seems like this method is just leaking PII data
-
-> Response
-
-```json
-{
-  "id": "string, UUID of collection",
-  "query_result": "string, serialized JSON payload containing findings"
-}
-```
-
-> 200 - request successful.
-
-### HTTP Request
-
-`GET /v1/customers/{customerid}/users/{userid}/requests/{requestid}/salesforce/query`
-
-### Request Parameters
-
-The URL contains :
-
-| Parameter  | Description       |
-| ---------- | ----------------- |
-| customerid | UUID of customer. |
-| userid     | UUID of user.     |
-| requestid  | UUID of request.  |
-
 ## Create Query
 
-Registers a new Salesforce query.
+Submit a query for a Salesforce connector. All query parameters are optional strings but, it MUST include one of First Name & Lastname, or email, or phone number.
 
 > Request must contain the query JSON payload:
 
@@ -81,7 +48,7 @@ Registers a new Salesforce query.
 
 > Response
 
-```
+```json
 
 ```
 

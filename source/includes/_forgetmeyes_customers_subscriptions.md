@@ -320,7 +320,7 @@ Update a payment subscription method.
 
 > Response
 
-```
+```json
 
 ```
 
@@ -329,6 +329,7 @@ Update a payment subscription method.
 ### HTTP Request
 
 `PUT /v1/customers/{customerid}/subscriptions/{subscriptionid}`
+
 `PATCH /v1/customers/{customerid}/subscriptions/{subscriptionid}`
 
 ### Request Parameters
@@ -346,13 +347,13 @@ Delete a payment subscription method.
 
 > Request body:
 
-```
+```json
 
 ```
 
 > Response
 
-```
+```json
 
 ```
 
