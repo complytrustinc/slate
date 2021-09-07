@@ -1,13 +1,9 @@
 # User Sources
 
-Manage user sources. Currently valid source types include
+Manage user sources. Currently, the only valid source type is Salesforce:
 
 Salesforce, UUID:
 918da792-a8c2-4534-9427-39b29460789d
-
-Shopify, UUID:
-
-<aside class="notice">coming soon</aside>
 
 ## Get All Sources for User
 
