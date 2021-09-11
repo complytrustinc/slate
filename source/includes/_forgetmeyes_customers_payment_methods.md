@@ -2,7 +2,7 @@
 
 All Customer payment methods require a customer UUID as part of their
 
-## Get Payment
+## Get Payment Methods
 
 Get an array of registered payment methods.
 
@@ -156,9 +156,9 @@ The URL contains:
 | ---------- | --------------- |
 | customerid | customer's UUID |
 
-## Get Payment
+## Get Payment Method by Id
 
-Get registered payment methods.
+Get registered payment method by Id.
 
 > Response
 

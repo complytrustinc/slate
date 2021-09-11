@@ -1,6 +1,6 @@
 # Payments
 
-## Get Payment
+## Get Payment Configuration
 
 Returns payment configuration.
 
@@ -26,7 +26,7 @@ Returns payment configuration.
 
 > 200 - status ok.
 
-## Setup Payment
+## Setup Payment Configuration
 
 Configures payment.
 
