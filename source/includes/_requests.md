@@ -2,7 +2,7 @@
 
 Manage your FMY Requests
 
-## Get All Users
+## Get All Requests
 
 Returns the list of requests for a given user.
 
@@ -196,7 +196,7 @@ Its body contains a request payload:
 | --------- | ----------------------------- |
 | request   | Json containing request data. |
 
-## Delete User
+## Delete Request
 
 Deletes a specific request.
 

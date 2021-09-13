@@ -166,9 +166,9 @@ Its body contains a customer payload:
 | ------------------ | ----------------------------------- |
 | Salesforce Request | Json containing Salesforce request. |
 
-## Delete User
+## Delete Salesforce Request
 
-Deletes a specific customer.
+Deletes a Salesforce request.
 
 > Response
 

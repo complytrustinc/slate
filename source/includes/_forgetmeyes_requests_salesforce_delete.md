@@ -2,7 +2,7 @@
 
 The purpose of this set of API calls is managing the creation of deletion requests. It does not in any way change data at the source, but rather generates a document and zip file with CSVs that empower the actual data holder to perform this deletion.
 
-## Get All Salesforce Object Matches
+## Retrieve All Salesforce Object Matches and Delete Statuses
 
 Returns the list of records that matched against the query. It lists each query match and the field where it took place.
 
@@ -206,7 +206,7 @@ The URL contains :
 | userid     | UUID of user.     |
 | requestid  | UUID of request.  |
 
-## Submnit ADI request
+## Submit ADI request
 
 When this method is called, three things happen:
 

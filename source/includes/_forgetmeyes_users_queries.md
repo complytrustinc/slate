@@ -164,7 +164,7 @@ Its body contains a user query payload:
 | --------- | -------------------------------- |
 | query     | Json containing user query data. |
 
-## Delete User
+## Delete User Query
 
 Deletes a specific customer query.
 
